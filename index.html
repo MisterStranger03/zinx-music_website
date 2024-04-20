@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./folder1/logo.png">
+    <title>ZINX MUSIC PLAYER</title>
+    <link rel="stylesheet" href="zinx.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <nav>
+        <ul>
+          <li class="brand"><img src="logo1.png" alt="logo" /></li>
+        
+        </ul>
+      </nav>
+            
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    
+                   
+                </div>
+                <div class="nav-option">
+                    
+                    
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        
+                        
+                    </div>
+                    <aside class="sidebar">
+                        <div class="home-button">
+                            <i class="fa-solid fa-house"></i>
+                            <button></button>
+                        </div>
+                        <div class="search-button">
+                            <button id="searchToggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            <div id="searchBox" class="search-box">
+                                <input type="text" placeholder="Search for music...">
+                                <button id="searchClose">Close</button>
+                            </div>
+                        </div>
+                    </aside>       
+                    
+                    
+                </div>
+                
+                <div class="lib-box">
+                    <div class="box">
+                        
+                        <button class="badge"><strong>CREATE PLAYLIST</strong></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+
+                    </div>
+                <div class="sticky-nav-option">
+                    <section class="search-by-voice" id="voiceSection">
+                        <h2>Voice Search</h2>
+                        <button id="voiceButton">Start Listening</button>
+                        <p id="voiceResult"></p> 
+                    </section>
+                    
+                    <div class="mic-button" id="micButton">
+                        
+                        <img src="./folder2/mic.jpeg" class="card-img" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./folder1/card7img.jpeg" class="card-img" alt="">
+                    
+                    <p class="card-title">Kahani Suno 2.0</p>
+                    <p class="card-info">Kaif Khalil</p>
+                    
+                </div>
+            </div>
+            <h2>On Repeat </h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./folder1/card2img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Pehle Bhi Mein</p>
+                    <p class="card-info">Vishal Mishra</p>
+                </div>
+                <div class="card">
+                    <img src="./folder1/card3img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Kesariya</p>
+                    <p class="card-info">Arijit Singh</p>
+                </div>
+                <div class="card">
+                    <img src="./folder1/card4img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Husn</p>
+                    <p class="card-info">Anuv Jain</p>
+                </div>
+                <div class="card">
+                    <img src="./folder1/card8img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Ve Haaniyaan</p>
+                    <p class="card-info">Danny, Avvy Sra</p>
+                </div>
+                <div class="card">
+                    <img src="./folder1/card10img.jpeg" class="card-img" alt="">
+                    <p class="card-title">295</p>
+                    <p class="card-info">Sidhu Moose Wala</p>
+                </div>
+                <div class="card">
+                    <img src="./folder1/card9img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Kaise Hua</p>
+                    <p class="card-info">Vishal Mishra</p>
+                </div>
+                <div class="card">
+                    <img src="./folder1/card11img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Tu Aake Dekhle</p>
+                    <p class="card-info">King</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./folder1/card5img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs-Global</p>
+                    
+                </div>
+                <div class="card">
+                    <img src="./folder1/card6img.jpeg" class="card-img" alt="">
+                    <p class="card-title">Top Songs-India</p>
+                    
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+            
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-photo">
+                    <img src="./folder2/album_picture.jpeg" >
+                    <div class="album-name">
+                        <p class="album-title">With You</p>
+                        <p class="album-info">AP Dhillon</p> 
+                    </div>
+                </div>
+                <div class="album-icon">
+                    <img src="./folder2/album_icon1.png" class="icon1">
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./folder1/player_icon1.png" class="player-controls-icon">
+                    <img src="./folder1/player_icon2.png" class="player-controls-icon">
+                    <img src="./folder1/player_icon3.png" class="player-controls-icon" style="opacity: 1; height: 2rem;">
+                    <img src="./folder1/player_icon5.png" class="player-controls-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" step="1" class="progress-bar" >
+                    <span class="curr-time">02:50</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <img src="./folder2/controld_icon2.png" >
+                <input type="range" min="0" max="100" step="10" class="controls-range progress-bar">
+            </div>
+        </div>
+    </div>
+    <script src="voice-recognition.js"></script> 
+    <script src="script.js"></script> 
+</body>
+</html>
